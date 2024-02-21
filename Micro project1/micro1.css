@@ -1,0 +1,116 @@
+body {
+    margin: 16px;
+    padding: 19px;
+    font-family: Inter, sans-serif;
+}
+
+header {
+    width: 1440px;
+    height: 592px;
+    background: #FFCD9E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.left1 {
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-input {
+    width: 216px;
+    height: 36px;
+    padding: 0 16px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.register-button {
+    width: 216px;
+    height: 36px;
+    background: #000;
+    color: #FFCD9E;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 32px;
+}
+.free { 
+    font-family: Inter;
+    size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.footer {
+    width: 1440px;
+    height: 298px;
+    background: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 592px;
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-right {
+    width: 50%;
+}
+
+.social-link1, .social-link2 {
+    list-style-type: none;
+    padding: 10;
+    margin: 10;
+    width: 216px;
+    height: 36px;
+    top: 654px;
+    left: 191px;
+
+}
+
+.social-link1 li, .social-link2 li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-link1 li a, .social-link2 li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contact-link {
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
